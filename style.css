@@ -1,0 +1,98 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+/* style */
+body {
+    font-size: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333333;
+    background-image: url(img/memphis-mini.png);
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(253, 246, 246);
+
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+
+.header a:hover {
+
+    background-color: lightskyblue;
+    color: white;
+}
+
+.hero {
+    height: 350px;
+    background-image: url(img/tanaman.jpg);
+    background-size: cover;
+    background-position: 0 -150px;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightslategray;
+
+}
+
+.content {
+    padding: 15px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 14px;
+    margin-top: 1px
+}
+
+.content .penulis a {
+    text-decoration: none;
+}
+
+.content .penulis a:hover {
+    color: red;
+}
+
+.container p {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: slategray;
+    padding: 1px;
+}
+
+.footer .copy {
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-top: 20px;
+
+}
