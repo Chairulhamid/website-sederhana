@@ -14,11 +14,11 @@ body {
 .container {
     width: 800px;
     margin: auto;
-    background-color: rgb(253, 246, 246);
+    background-color: rgba(180, 218, 175, .5);
 
 }
 
-.header {
+.header .judul {
     padding: 20px;
     padding-bottom: 10px;
 
@@ -27,24 +27,72 @@ body {
 .header .judul {
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .header ul li {
     display: inline-block;
     margin-top: 20px;
     margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+
+.header ul {
+    background-color: rgb(65, 160, 78);
+    height: 50px;
+
 }
 
 .header a {
     text-decoration: none;
-    color: salmon;
-    padding: 3px;
+    color: rgb(233, 250, 219);
+    padding: 10px;
+    text-align: center;
+}
+
+.header .input {
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-left: 60px;
+}
+
+.header .cari {
+    background-color: rgb(34, 141, 91);
+    font-size: 15px;
+    width: 70px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(129, 197, 146);
+}
+
+.header .cari:hover {
+    background-color: rgb(59, 88, 117);
+    color: floralwhite;
+    border: 2px solid rgb(46, 129, 125);
 }
 
 .header a:hover {
 
-    background-color: lightskyblue;
+    background-color: rgb(151, 176, 190);
     color: white;
+    border-radius: 10px;
+
+}
+
+.header .join {
+    background-color: rgb(16, 100, 75);
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .hero {
@@ -85,7 +133,7 @@ body {
 
 .footer {
     background-color: slategray;
-    padding: 1px;
+    height: 40px;
 }
 
 .footer .copy {
@@ -93,6 +141,7 @@ body {
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 14px;
-    margin-top: 20px;
+    line-height: 40px;
+
 
 }
