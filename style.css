@@ -169,7 +169,8 @@ body {
 
 .sidebar table {
     width: 350px;
-    margin-left: -20px;
+    margin-left: 30px;
+
 }
 
 .sidebar table tr th {
