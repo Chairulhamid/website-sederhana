@@ -1,221 +1,221 @@
-* {
-    margin: auto;
-    padding: 0;
-}
+    * {
+        margin: auto;
+        padding: 0;
+    }
 
-/* style */
-body {
-    font-size: 16px/28px arial, sans-serif;
-    background-color: #eaeaea;
-    color: #333333;
-    background-image: url(img/memphis-mini.png);
-}
+    /* style */
+    body {
+        font-size: 16px/28px arial, sans-serif;
+        background-color: #eaeaea;
+        color: #333333;
+        background-image: url(img/memphis-mini.png);
+    }
 
-.container {
-    width: 960px;
-    margin: auto;
-    background-color: rgba(180, 218, 175, .5);
-    box-shadow: -3px 3px 3px rgba(98, 139, 22, 0.8);
+    .container {
+        width: 960px;
+        margin: auto;
+        background-color: rgba(180, 218, 175, .5);
+        box-shadow: -3px 3px 3px rgba(98, 139, 22, 0.8);
 
-}
+    }
 
-.header .judul {
-    padding: 20px;
-    padding-bottom: 10px;
+    .header .judul {
+        padding: 20px;
+        padding-bottom: 10px;
 
-}
+    }
 
-.header .judul {
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
-}
+    .header .judul {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 
-.header ul li {
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-
-
-}
-
-.header ul {
-    background-color: rgb(65, 160, 78);
-    height: 50px;
-
-}
-
-.header a {
-    text-decoration: none;
-    color: rgb(233, 250, 219);
-    padding: 10px;
-    text-align: center;
-}
-
-.header .input {
-    width: 200px;
-    height: 20px;
-
-    border-radius: 10px;
-    border: 1px solid white;
-    position: relative;
-    margin-left: 230px;
-
-}
-
-.header .cari {
-    background-color: rgb(34, 141, 91);
-    font-size: 15px;
-    width: 70px;
-    height: 25px;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 2px solid rgb(129, 197, 146);
-
-}
-
-.header .cari:hover {
-    background-color: rgb(59, 88, 117);
-    color: floralwhite;
-    border: 2px solid rgb(46, 129, 125);
-}
-
-.header a:hover {
-
-    background-color: rgb(151, 176, 190);
-    color: white;
-    border-radius: 10px;
-
-}
-
-.header .join {
-    background-color: rgb(16, 100, 75);
-    color: white;
-    border-radius: 10px;
-    position: relative;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.hero {
-    height: 400px;
-    background-image: url(img/tanaman.jpg);
-    background-size: cover;
-    background-position: 0 -150px;
-    border-top: 5px solid salmon;
-    border-bottom: 5px solid lightslategray;
-
-}
-
-.main {
-    width: 600px;
-    padding: 20px;
-    margin-left: -10px;
-    box-sizing: border-box;
-    float: left;
-
-}
-
-.main h2 {
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.main .penulis {
-    font-size: 14px;
-    margin-top: 1px
-}
-
-.main .penulis a {
-    text-decoration: none;
-}
-
-.main .penulis a:hover {
-    color: red;
-}
-
-.container p {
-    margin-bottom: 20px;
-}
-
-.sidebar {
-    width: 300px;
-    float: right;
-    padding: 20px;
-    padding-top: 50px;
+    .header ul li {
+        display: inline-block;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
 
 
-}
+    }
 
-.sidebar h3 {
-    font-weight: bold;
-    color: #666;
-    text-align: center;
-    padding-bottom: 20px;
+    .header ul {
+        background-color: rgb(65, 160, 78);
+        height: 50px;
 
-}
+    }
 
-.sidebar img {
-    margin-left: 100px;
-}
+    .header a {
+        text-decoration: none;
+        color: rgb(233, 250, 219);
+        padding: 10px;
+        text-align: center;
+    }
 
-.sidebar h4 {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+    .header .input {
+        width: 200px;
+        height: 20px;
 
-.sidebar table {
-    width: 350px;
-    margin-left: 30px;
+        border-radius: 10px;
+        border: 1px solid white;
+        position: relative;
+        margin-left: 230px;
 
-}
+    }
 
-.sidebar table tr th {
-    width: 100px;
+    .header .cari {
+        background-color: rgb(34, 141, 91);
+        font-size: 15px;
+        width: 70px;
+        height: 25px;
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        border: 2px solid rgb(129, 197, 146);
 
-}
+    }
 
-.sidebar table tr td {
-    width: 300px;
-}
+    .header .cari:hover {
+        background-color: rgb(59, 88, 117);
+        color: floralwhite;
+        border: 2px solid rgb(46, 129, 125);
+    }
 
-.footer {
-    background-color: slategray;
-    height: 40px;
-}
+    .header a:hover {
 
-.footer .copy {
+        background-color: rgb(151, 176, 190);
+        color: white;
+        border-radius: 10px;
 
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 14px;
-    line-height: 40px;
-}
+    }
+
+    .header .join {
+        background-color: rgb(16, 100, 75);
+        color: white;
+        border-radius: 10px;
+        position: relative;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .hero {
+        height: 400px;
+        background-image: url(img/tanaman.jpg);
+        background-size: cover;
+        background-position: 0 -150px;
+        border-top: 5px solid salmon;
+        border-bottom: 5px solid lightslategray;
+
+    }
+
+    .main {
+        width: 600px;
+        padding: 20px;
+        margin-left: -10px;
+        box-sizing: border-box;
+        float: left;
+
+    }
+
+    .main h2 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .main .penulis {
+        font-size: 14px;
+        margin-top: 1px
+    }
+
+    .main .penulis a {
+        text-decoration: none;
+    }
+
+    .main .penulis a:hover {
+        color: red;
+    }
+
+    .container p {
+        margin-bottom: 20px;
+    }
+
+    .sidebar {
+        width: 300px;
+        float: right;
+        padding: 20px;
+        padding-top: 50px;
 
 
+    }
+
+    .sidebar h3 {
+        font-weight: bold;
+        color: #666;
+        text-align: center;
+        padding-bottom: 20px;
+
+    }
+
+    .sidebar img {
+        margin-left: 100px;
+    }
+
+    .sidebar h4 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .sidebar table {
+        width: 350px;
+        margin-left: 30px;
+
+    }
+
+    .sidebar table tr th {
+        width: 100px;
+
+    }
+
+    .sidebar table tr td {
+        width: 300px;
+    }
+
+    .footer {
+        background-color: slategray;
+        height: 40px;
+    }
+
+    .footer .copy {
+
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        line-height: 40px;
+    }
 
 
 
-/* ini clear fix */
-.cf:before,
-.cf:after {
-    content: " ";
-    /* 1 */
-    display: table;
-    /* 2 */
-}
 
-.cf:after {
-    clear: both;
-}
 
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
-}
+    /* ini clear fix */
+    .cf:before,
+    .cf:after {
+        content: " ";
+        /* 1 */
+        display: table;
+        /* 2 */
+    }
+
+    .cf:after {
+        clear: both;
+    }
+
+    /**
+    * For IE 6/7 only
+    * Include this rule to trigger hasLayout and contain floats.
+    */
+    .cf {
+        *zoom: 1;
+    }
