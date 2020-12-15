@@ -19,17 +19,21 @@
 
     }
 
-    .header .judul {
-        padding: 20px;
-        padding-bottom: 10px;
+    .header {
+        display: inline;
+    }
 
+    nav {
+        position: sticky;
+        top: 0;
     }
 
     .header .judul {
         font-size: 40px;
         font-weight: bold;
         text-align: center;
-        margin-bottom: 10px;
+        height: 200px;
+        line-height: 200px;
     }
 
     .header ul li {
